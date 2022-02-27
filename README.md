@@ -6,7 +6,9 @@ In order to decide the "best" machine learning model for predicting credit risk,
 
 ## Resources
 -**`Software:`** [DataSpell](https://www.jetbrains.com/dataspell/) **|** [Jupyter Notebook](https://jupyter.org/install)
+
 -**`Data Source:`** [LoanStats_2019Q1.csv](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/LoanStats_2019Q1.csv)
+
 -**`Libraries:`** [scikit-learn](https://scikit-learn.org/stable/) **|** [imbalanced-learn](https://imbalanced-learn.org/stable/)
 
 

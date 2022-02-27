@@ -24,18 +24,26 @@ Let's start by looking at our `Random Oversampling` model. The data has been cle
 
 #### Results:
 - Resampled Data Distribution:
+
+
   ![Random Over Sampled Data](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/RODataDist.png)
 
 
 - Balanced Accuracy Score:
+
+
   ![Balanced Accuracy Score](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ROBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ROConfusionMatrix.png)
 
   
 - Imbalanced Classification Report:
+
+
   ![Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ROImbalancedClassificationReport.png)
 
 
@@ -61,18 +69,26 @@ Next up is SMOTE! Also known as, Synthetic Minority Oversampling Technique. We w
 
 #### Results:
 - Resampled Data Distribution:
+
+
   ![SMOTE Resampled Data Dist](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/SmoteDataDist.png)
 
 
 - Balanced Accuracy Score:
+
+
   ![SMOTE Balanced Accuracy Score](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/SmoteBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![SMOTE Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/SmoteConfusionMatrix.png)
 
 
 - Imbalanced Classification Report:
+
+
   ![SMOTE Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/SmoteImbalancedClassificationReport.png)
 
 
@@ -91,18 +107,26 @@ Let's move on and see if any of the other models are more accurate.
 
 #### Results:
 - Resampled Data Distribution:
+
+
   ![ClusterCentroids Data Dist](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/CCUndersamplingDataDist.png)
 
 
 - Balanced Accuracy Score:
+
+
   ![ClusterCentroids Balanced Accuracy Score](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/CCUndersamplingBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![ClusterCentroids Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/CCUndersamplingConfusionMatrix.png)
 
 
 - Imbalanced Classification Report:
+
+
   ![ClusterCentroids Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/CCUndersamplingImbalancedClassificationReport.png)
 
 Just when we thought things couldn't possibly get worse, right?! Even though our `CentroidCluster()` model is definitely not the model for the job, let's talk about a few points of note.
@@ -123,19 +147,28 @@ Now this model is interesting! As you can see below, for the first time our data
 
 #### Results:
 - Resampled Data Distribution:
+
+
   ![SMOTEEN Data Dist](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ENNDataDist.png)
 
 
 - Balanced Accuracy Score:
+
+
   ![SMOTEEN](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ENNBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![SMOTEEN Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ENNConfusionMatrix.png)
 
 
 - Imbalanced Classification Report:
+
+
   ![SMOTEEN Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ENNImbalancedClassificationReport.png)
+
 
 Definitely better! The **SMOTEEN** model is a huge improvement from our `ClusterCentroid()` model according to our `balanced accuracy scores`. Compared to our `SMOTE` and `Random Oversampling` models, there is a slight improvement. Let's talk a little more about the results above:
 
@@ -151,22 +184,32 @@ Definitely better! The **SMOTEEN** model is a huge improvement from our `Cluster
 **`Prediction Method:`** BalancedRandomForestClassifier()
 
 - Feature Importance Score:
+
+
   ![Forest Feature Importance Scores](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ForestFeatureImportance.png)
 
 
 - Feature Importance Chart:
+
+
   ![Forest Feature Importance Chart](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/Importance.png)
 
 
 - Balanced Accuracy Score:
+
+
   ![Forest Balanced Accuracy Score](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ForestBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![Forest Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ForestConfusionMatrix.png)
 
 
 - Imbalanced Classification Report:
+
+
   ![Forest Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/ForestImbalancedClassificationReport.png)
   
 
@@ -189,14 +232,20 @@ Last but definitely not least.... The **EasyEnsembleClassifier** model. Right of
 
 
 - Balanced Accuracy Score:
+
+
   ![EEC Balanced Accuracy Score](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/EnsembleBalancedAccuracyScore.png)
 
 
 - Confusion Matrix:
+
+
   ![EEC Confusion Matrix](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/EnsembleConfusionMatrix.png)
 
 
 - Imbalanced Classification Report:
+
+
   ![EEC Imbalanced Classification Report](https://github.com/StickySitch/Credit_Risk_Analysis/blob/main/Images/EnsembleImbalancedClassificationReport.png)
 
 
